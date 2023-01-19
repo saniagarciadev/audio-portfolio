@@ -9,7 +9,7 @@ export default function Intro() {
         BIEN SÛR
       </h1> */}
       <div className="w-[100vw] flex justify-center items-center">
-        <div className="w-[400px] max-w-[100vw] p-2">
+        <div className="w-[700px] max-w-[100vw] m-8">
           <Image src={logo} alt="Bien Sûr logo" />
         </div>
       </div>
