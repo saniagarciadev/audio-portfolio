@@ -1,12 +1,13 @@
-import Link from 'next/link'
+import Link from "next/link";
+import NavButton from "./nav-button";
 
 export default function Header() {
   return (
-    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
-      <Link href="/">
-        <a className="hover:underline">Blog</a>
-      </Link>
-      .
-    </h2>
-  )
+    <nav className="relative w-fit mx-auto z-10 p-10  flex gap-4">
+      <NavButton route="/">:)</NavButton>
+      <NavButton route="https://soundcloud.com/biensurr">Soundcloud</NavButton>
+      <NavButton route="https://www.instagram.com/lex_klein_">Instagram</NavButton>
+      <NavButton route="https://twitter.com/thickassdj">Twitter</NavButton>
+    </nav>
+  );
 }
