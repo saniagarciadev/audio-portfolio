@@ -1,8 +1,8 @@
-import Image from "next/image";
-import { CMS_NAME, CMS_URL } from "../lib/constants";
-import logo from "../public/logo.png";
-import boi from "../public/boi.png";
-import Spline from "@splinetool/react-spline";
+// import Image from "next/image";
+// import { CMS_NAME, CMS_URL } from "../lib/constants";
+// import logo from "../public/logo.png";
+// import boi from "../public/boi.png";
+// import Spline from "@splinetool/react-spline";
 
 export default function Intro() {
   return (
