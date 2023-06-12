@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-[#3702E4]">
       <Container>
         <div className="py-3 px-7 text-right flex flex-row flex-wrap gap-10 items-center justify-end">
-          <p>Copyright © 2023 Bien Sûr. All Rights Reserved.</p>
+          <p>© 2023 Bien Sûr</p>
         </div>
       </Container>
     </footer>

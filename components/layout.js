@@ -1,14 +1,15 @@
+import Header from "./header";
+import Container from "./container";
 import Footer from "../components/footer";
-import Meta from "../components/meta";
+import Background from "./background";
 
 export default function Layout({ preview, children }) {
   return (
-    <>
-      <Meta />
-      <div className="min-h-screen bg-black">
-        <main>{children}</main>
-      </div>
-      <Footer />
-    </>
+    <div className="h-[100vh] w-[100vw] fixed flex flex-col justify-end">
+        <Container>{children}</Container>
+        <Header />
+        <Footer />
+        <Background />
+    </div>
   );
 }
